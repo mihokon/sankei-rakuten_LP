@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	margin:0;
+	padding:0;
+}
+img{
+	border:none;
+	vertical-align: bottom;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all  0.3s ease;
+}
+ol,ul,li{list-style:none;}
+html.body,div,p,a,ul,ol,li,dl,dt,dd,table,td,th,h1,h2,h3,h4,h5,h6,
+span,strong,b,i,img,input,select,textarea,section,article,figure{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	-webkit-transition: width 0.3s ease;
+	-moz-transition: width 0.3s ease;
+	-o-transition: width 0.3s ease;
+	transition: width  0.3s ease;
+	-webkit-transition: padding 0.3s ease;
+	-moz-transition: padding 0.3s ease;
+	-o-transition: padding 0.3s ease;
+	transition: padding  0.3s ease;
+}
+div:focus,
+a:focus,
+a:hover,
+span:focus,
+input:focus{
+	outline:none;
+	text-decoration: none;
+}
+a{
+	border:none;
+	text-decoration:none;
+	color:#080808;
+}
+@media (max-width: 640px) {
+	body{
+		-webkit-text-size-adjust: 100%;
+		overflow-x:hidden;
+	}
+}
