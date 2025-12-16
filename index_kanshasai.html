@@ -378,8 +378,17 @@ bnr_area .bnr_area_item:last-of-type {
 <script src="assets_new/js/csv_column.js?05" charset="utf-8"></script>
 <script>
 $(document).ready(function(){
-	var cat_Type = [ ['TIMESALE01'],['TIMESALE02'],['TIMESALE03'],['FEATURE'],['COUPON'],['GEKI'],['PRICE_DOWN'],['MATERNITY'],['PRICE_DOWN1'],['HOSEI'],['SUMMER_INNER'],['NIGHT_BRA'],['NEW_ITEM'],['BRA_SET'],['DAILY_ITEM'],['FEMTECH_ITEM'],['LULUSMART_BRA'],['RANKING'] ];
-  item_csv('csv/sale_241219', cat_Type);
+var cat_Type = [
+  ['FEATURE'],
+  ['SUMMER_INNER'],
+  ['PRICE_DOWN1'],
+  ['PRICE_DOWN'],
+  ['GEKI'],
+  ['BRA_SET'],
+  ['DAILY_ITEM'],
+  ['MATERNITY']
+];
+item_csv('csv/sale_241219', cat_Type);
  
   var speed = 400;
   $('.pagetop').click(function(){
